@@ -22,7 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v4xx-common/proprietary/bin/irrcServer:system/bin/irrcServer \
     vendor/lge/v4xx-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/lge/v4xx-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/lge/v4xx-common/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/lge/v4xx-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/v4xx-common/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/lge/v4xx-common/proprietary/bin/qmuxd:system/bin/qmuxd \
@@ -42,8 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v4xx-common/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/lge/v4xx-common/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/lge/v4xx-common/proprietary/lib/drm/libfwdlockengine.so:system/lib/drm/libfwdlockengine.so \
-    vendor/lge/v4xx-common/proprietary/lib/hw/camera.vendor.msm8226.so:system/lib/hw/camera.vendor.msm8226.so \
-    vendor/lge/v4xx-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/lge/v4xx-common/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/lge/v4xx-common/proprietary/lib/libchromatix_hi543_common.so:system/lib/libchromatix_hi543_common.so \
     vendor/lge/v4xx-common/proprietary/lib/libchromatix_hi543_default_video.so:system/lib/libchromatix_hi543_default_video.so \
@@ -105,7 +102,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v4xx-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     vendor/lge/v4xx-common/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/lge/v4xx-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
-    vendor/lge/v4xx-common/proprietary/vendor/lib/hw/sensors.msm8226.so:system/vendor/lib/hw/sensors.msm8226.so \
+    vendor/lge/v4xx-common/proprietary/vendor/lib/hw/camera.vendor.msm8226.so:system/vendor/lib/hw/camera.vendor.msm8226.so \
+    vendor/lge/v4xx-common/proprietary/vendor/lib/hw/gps.default.so:system/vendor/lib/hw/gps.default.so \
+    vendor/lge/v4xx-common/proprietary/vendor/lib/sensors.v4xx.so:system/vendor/lib/sensors.v4xx.so \
     vendor/lge/v4xx-common/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
     vendor/lge/v4xx-common/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
     vendor/lge/v4xx-common/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
